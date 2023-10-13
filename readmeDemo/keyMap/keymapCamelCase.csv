@@ -1,0 +1,73 @@
+default, output
+export date, exportDate
+eyetracker, eyetrackerName
+mode, eyetrackingMode
+sampling frequency, sampleRate
+calibrated eye, calibratedEye
+license file, licenseFile
+reconnection attemts, reconnectionAttempts
+reconnection wait, reconnectionWait
+debug mode, debugMode
+device name, deviceName
+serial number, serialNumber
+model, deviceModel
+firmware version, firmwareVersion
+runtime version, runtimeVersion
+connection address, connectionAddress
+capabilities, capabilities
+supported frequencies, supportedFrequencies
+supported modes, supportedModes
+SDK version, sdkVersion
+display area height, displayAreaHeight
+display area width, displayAreaWidth
+display area bottom left, displayAreaBottomLeft
+display area bottom right, displayAreaBottomRight
+display area top left, displayAreaTopLeft
+display area top right, displayAreaTopRight
+track box back lower left, trackBoxBackLowerLeft
+track box back lower right, trackBoxBackLowerRight
+track box back upper left, trackBoxBackUpperLeft
+track box back upper right, trackBoxBackUpperRight
+track box front lower left, trackBoxFrontLowerLeft
+track box front lower right, trackBoxFrontLowerRight
+track box front upper left, trackBoxFrontUpperLeft
+track box front upper right, trackBoxFrontUpperRight
+track box half width, trackBoxHalfWidth
+track box half height, trackBoxHalfHeight
+Eyetracker timestamp, eyetrackerTimestamp
+system timestamp, systemTimestamp
+Validity of gaze left, validityGazeLeft
+Validity of gaze right, validityGazeRight
+Gaze point left X (adcs), gazePointAdcsLeftX
+Gaze point left Y (adcs), gazePointAdcsLeftY
+Gaze point right X (adcs), gazePointAdcsRightX
+Gaze point right Y (adcs), gazePointAdcsRightY
+Gaze point left X (ucs), gazePointUcsLeftX
+Gaze point left Y (ucs), gazePointUcsLeftY
+Gaze point left Z (ucs), gazePointUcsLeftZ
+Gaze point right X (ucs), gazePointUcsRightX
+Gaze point right Y (ucs), gazePointUcsRightY
+Gaze point right Z (ucs), gazePointUcsRightZ
+Validity of pupil left, validityPupilLeft
+Validity of pupil right, validityPupilRight
+Pupil diameter left, pupilDiameterLeft
+Pupil diameter right, pupilDiameterRight
+Validity of pupil left, validityPupilLeft
+Validity of pupil right, validityPupilRight
+Gaze origin left X (ucs), gazeOriginUcsLeftX
+Gaze origin left Y (ucs), gazeOriginUcsLeftY
+Gaze origin left Z (ucs), gazeOriginUcsLeftZ
+Gaze origin right X (ucs), gazeOriginUcsRightX
+Gaze origin right Y (ucs), gazeOriginUcsRightY
+Gaze origin right Z (ucs), gazeOriginUcsRightZ
+Gaze origin left X (tbcs), gazeOriginTbcsLeftX
+Gaze origin left Y (tbcs), gazeOriginTbcsLeftY
+Gaze origin left Z (tbcs), gazeOriginTbcsLeftZ
+Gaze origin right X (tbcs), gazeOriginTbcsRightX
+Gaze origin right Y (tbcs), gazeOriginTbcsRightY
+Gaze origin right Z (tbcs), gazeOriginTbcsRightZ
+window size, windowSize
+left gaze in pixel x, leftGazeInPixelX
+left gaze in pixel y, leftGazeInPixelY
+right gaze in pixel x, rightGazeInPixelX
+right gaze in pixel y, rightGazeInPixelY

@@ -1,0 +1,73 @@
+default, output
+export date, export_date
+eyetracker, eyetracker_name
+mode, eyetracking_mode
+sampling frequency, sample_rate
+calibrated eye, calibrated_eye
+license file, license_file
+reconnection attemts, reconnection_attempts
+reconnection wait, reconnection_wait
+debug mode, debug_mode
+device name, device_name
+serial number, serial_number
+model, device_model
+firmware version, firmware_version
+runtime version, runtime_version
+connection address, connection_address
+capabilities, capabilities
+supported frequencies, supported_frequencies
+supported modes, supported_modes
+SDK version, sdk_version
+display area height, display_area_height
+display area width, display_area_width
+display area bottom left, display_area_bottom_left
+display area bottom right, display_area_bottom_right
+display area top left, display_area_top_left
+display area top right, display_area_top_right
+track box back lower left, track_box_back_lower_left
+track box back lower right, track_box_back_lower_right
+track box back upper left, track_box_back_upper_left
+track box back upper right, track_box_back_upper_right
+track box front lower left, track_box_front_lower_left
+track box front lower right, track_box_front_lower_right
+track box front upper left, track_box_front_upper_left
+track box front upper right, track_box_front_upper_right
+track box half width, track_box_half_width
+track box half height, track_box_half_height
+Eyetracker timestamp, eyetracker_timestamp
+system timestamp, system_timestamp
+Validity of gaze left, validity_gaze_left
+Validity of gaze right, validity_gaze_right
+Gaze point left X (adcs), gaze_point_adcs_left_x
+Gaze point left Y (adcs), gaze_point_adcs_left_y
+Gaze point right X (adcs), gaze_point_adcs_right_x
+Gaze point right Y (adcs), gaze_point_adcs_right_y
+Gaze point left X (ucs), gaze_point_ucs_left_x
+Gaze point left Y (ucs), gaze_point_ucs_left_y
+Gaze point left Z (ucs), gaze_point_ucs_left_z
+Gaze point right X (ucs), gaze_point_ucs_right_x
+Gaze point right Y (ucs), gaze_point_ucs_right_y
+Gaze point right Z (ucs), gaze_point_ucs_right_z
+Validity of pupil left, validity_pupil_left
+Validity of pupil right, validity_pupil_right
+Pupil diameter left, pupil_diameter_left
+Pupil diameter right, pupil_diameter_right
+Validity of pupil left, validity_pupil_left
+Validity of pupil right, validity_pupil_right
+Gaze origin left X (ucs), gaze_origin_ucs_left_x
+Gaze origin left Y (ucs), gaze_origin_ucs_left_y
+Gaze origin left Z (ucs), gaze_origin_ucs_left_z
+Gaze origin right X (ucs), gaze_origin_ucs_right_x
+Gaze origin right Y (ucs), gaze_origin_ucs_right_y
+Gaze origin right Z (ucs), gaze_origin_ucs_right_z
+Gaze origin left X (tbcs), gaze_origin_tbcs_left_x
+Gaze origin left Y (tbcs), gaze_origin_tbcs_left_y
+Gaze origin left Z (tbcs), gaze_origin_tbcs_left_z
+Gaze origin right X (tbcs), gaze_origin_tbcs_right_x
+Gaze origin right Y (tbcs), gaze_origin_tbcs_right_y
+Gaze origin right Z (tbcs), gaze_origin_tbcs_right_z
+window size, window_size
+left gaze in pixel x, left_gaze_in_pixel_x
+left gaze in pixel y, left_gaze_in_pixel_y
+right gaze in pixel x, right_gaze_in_pixel_x
+right gaze in pixel y, right_gaze_in_pixel_y
