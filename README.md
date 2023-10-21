@@ -14,9 +14,7 @@ This is a code for exporting output structure of [dcnieho/Titta](https://github.
 
 This code will create a table(MATLAB) or struct(GNU Octave) where each field only contains a single row of data with the same length for easy data export.
 
-The user can modify the code to add custom actions to the output.
-
-I encourage the user to dig into the code and modify it to suit their needs.
+I encourage the user to dig into the code and use inheritance/polyphormism to add custom actions to the output.
 
 I know this code is very much incomplete, so please feel free to open a pull request.
 
@@ -39,6 +37,9 @@ writetable(data.notifications, 'notifications.csv');
 ```
 
 Check out [/readmeDemo](./readDemo) for more details.
+
+- MATLAB: readmeDemo/matlabDemo.m
+- GNU Octave: readmeDemo/octaveDemo.m
 
 ## execution order
 
