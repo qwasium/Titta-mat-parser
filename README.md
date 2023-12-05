@@ -38,8 +38,8 @@ writetable(data.notifications, 'notifications.csv');
 
 Check out [/readmeDemo](./readDemo) for more details.
 
-- MATLAB: readmeDemo/matlabDemo.m
-- GNU Octave: readmeDemo/octaveDemo.m
+- MATLAB: readmeDemo/matlabDemo.mlx
+- GNU Octave: readmeDemo/octaveDemo.ipynb
 
 ## execution order
 
