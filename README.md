@@ -45,23 +45,23 @@ Check out [/readmeDemo](./readDemo) for more details.
 
 The code is executed in the following order:
 
-**`titta2delim()`**: constructor, adds key map if provided
+- **`titta2delim()`**: constructor, adds key map if provided
 
-- `addKeyMap()`
+  - `addKeyMap()`
 
-**`main()`**: main function; calls the following functions in order
+- **`main()`**: main function; calls the following functions in order
 
-- `createSessionInfo()`
-  - functions to add each row of `sessionInfo`
-  - `userDefinedSessionInfo()`: empty; modify this function for custom actions to `sessionInfo`
-- `createTimeSeries()`
-  - functions to add each row of `timeSeries`
-  - `userDefinedTimeSeries()`: empty; modify this function for custom actions to `timeSeries`
-- `createLog()`
-  - functions to create `TobiiLog`, `notifications`, and `messages`
-  - `userDefinedLog()`: empty; modify this function for custom actions to `TobiiLog`
-- `createCalibration()`: empty; not implemented
-- `userDefinedMain()`: modify this function for custom actions to `main()`
+  - `createSessionInfo()`
+    - functions to add each row of `sessionInfo`
+    - `userDefinedSessionInfo()`: empty; modify this function for custom actions to `sessionInfo`
+  - `createTimeSeries()`
+    - functions to add each row of `timeSeries`
+    - `userDefinedTimeSeries()`: empty; modify this function for custom actions to `timeSeries`
+  - `createLog()`
+    - functions to create `TobiiLog`, `notifications`, and `messages`
+    - `userDefinedLog()`: empty; modify this function for custom actions to `TobiiLog`
+  - `createCalibration()`: empty; not implemented
+  - `userDefinedMain()`: modify this function for custom actions to `main()`
 
 ## NOTE
 
