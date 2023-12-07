@@ -71,3 +71,5 @@ left gaze in pixel x, left_gaze_in_pixel_x
 left gaze in pixel y, left_gaze_in_pixel_y
 right gaze in pixel x, right_gaze_in_pixel_x
 right gaze in pixel y, right_gaze_in_pixel_y
+prior message, prior_message
+post message, post_message

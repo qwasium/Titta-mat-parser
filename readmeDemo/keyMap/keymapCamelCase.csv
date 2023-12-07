@@ -71,3 +71,5 @@ left gaze in pixel x, leftGazeInPixelX
 left gaze in pixel y, leftGazeInPixelY
 right gaze in pixel x, rightGazeInPixelX
 right gaze in pixel y, rightGazeInPixelY
+prior message, priorMessage
+post message, postMessage
