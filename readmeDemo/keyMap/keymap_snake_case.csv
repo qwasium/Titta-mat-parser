@@ -73,3 +73,5 @@ right gaze in pixel x, right_gaze_in_pixel_x
 right gaze in pixel y, right_gaze_in_pixel_y
 prior message, prior_message
 post message, post_message
+prior message timestamp, prior_message_timestamp
+post message timestamp, post_message_timestamp

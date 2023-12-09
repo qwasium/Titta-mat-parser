@@ -73,3 +73,5 @@ right gaze in pixel x, rightGazeInPixelX
 right gaze in pixel y, rightGazeInPixelY
 prior message, priorMessage
 post message, postMessage
+prior message timestamp, priorMessageTimestamp
+post message timestamp, postMessageTimestamp
