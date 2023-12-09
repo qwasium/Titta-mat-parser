@@ -142,8 +142,8 @@ classdef customExport < titta2delim
             %   - obj.timeSeries.(fieldNamePostTime)  : time stamp of post message
             defaultPriorMsg     = "prior message";
             defaultPostMsg      = "post message";
-            defaultPriorMsgTime = "prior message time stamp";
-            defaultPostMsgTime  = "post message time stamp";
+            defaultPriorMsgTime = "prior message timestamp";
+            defaultPostMsgTime  = "post message timestamp";
 
             if nargin == 1
                 fieldNamePriorMsg  = "";
