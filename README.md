@@ -40,6 +40,14 @@ Check out [/readmeDemo](./readDemo) for more details.
 
 - MATLAB: readmeDemo/matlabDemo.mlx
 - GNU Octave: readmeDemo/octaveDemo.ipynb
+e
+## setting column names
+
+The column names are set in the following priority. Every column name is evaluated and if it does not meet the criteria, it will fall back to the next priority level until a valid column name is found.
+
+1. If a string or character is provided as a parameter to the method, it will be evaluated first. This is a one-time change only affecting the current method call.
+2. The key map(`dictionary` or `containers.Map`) provided through `addKeyMap()` will be evaluated next. This is a permanent change affecting all method calls as long as the key map keeps existing as a class attribute. If the key map does not include a key for the current column, it will fall back to the default column name.
+3. If no valid column name is provided, the default column name will be used. This is a hard-coded value in the source code.
 
 ## execution order
 
@@ -47,7 +55,7 @@ The code is executed in the following order:
 
 - **`titta2delim()`**: constructor, adds key map if provided
 
-  - `addKeyMap()`
+  - `addKeyMap()`: If a `dictionary` or `containers.Map` is provided, it will be added as a class attribute `keyMap`
 
 - **`main()`**: main function; calls the following functions in order
 
