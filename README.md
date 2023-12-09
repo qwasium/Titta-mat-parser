@@ -40,7 +40,7 @@ Check out [/readmeDemo](./readDemo) for more details.
 
 - MATLAB: readmeDemo/matlabDemo.mlx
 - GNU Octave: readmeDemo/octaveDemo.ipynb
-e
+
 ## setting column names
 
 The column names are set in the following priority. Every column name is evaluated and if it does not meet the criteria, it will fall back to the next priority level until a valid column name is found.
