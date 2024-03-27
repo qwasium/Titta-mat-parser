@@ -1,5 +1,12 @@
 # export-Titta-mat
 
+**NOTICE**: THIS REPO IS NO LONGER MAINTAINED.
+
+In February 2024, Titta has officially implemented a tsv export function.
+Please see [dcnieho/Titta](https://github.com/dcnieho/Titta.git) for details.
+
+---
+
 Tested on:
 
 - MATLAB R2023a Update 5
